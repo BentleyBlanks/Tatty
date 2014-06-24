@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Public">
+      <UniqueIdentifier>{25ef725f-fcc7-4be6-9bfc-a0f1dc002c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAT">
+      <UniqueIdentifier>{5656fdaf-6bd0-4349-951a-84eded813394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAT\Core">
+      <UniqueIdentifier>{24c82915-f622-45e1-854a-da69c04c6342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAT\Low-Level Render">
+      <UniqueIdentifier>{2f1e52d9-6cc2-4a84-b062-fd75da203187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TAT\Platform Independence">
+      <UniqueIdentifier>{810de99e-2140-4a8a-bebf-accba1e10208}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="T3Camera.cpp">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClCompile>
+    <ClCompile Include="T3Primitive.cpp">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsBase.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Tatty3D.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Entrance.cpp">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXDriver.cpp">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClCompile>
+    <ClCompile Include="T3Draw.cpp">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClCompile>
+    <ClCompile Include="T3FileMan.cpp">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClCompile>
+    <ClCompile Include="T3Graphics.cpp">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClCompile>
+    <ClCompile Include="T3IO.cpp">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClCompile>
+    <ClCompile Include="T3UpdateLog.cpp">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClCompile>
+    <ClCompile Include="T3Math.cpp">
+      <Filter>TAT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="T3Pipeline.cpp">
+      <Filter>TAT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex3.cpp">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tatty3D.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsBase.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="T3Math.h">
+      <Filter>TAT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="T3Primitive.h">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClInclude>
+    <ClInclude Include="T3Pipeline.h">
+      <Filter>TAT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="T3Camera.h">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClInclude>
+    <ClInclude Include="T3Draw.h">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClInclude>
+    <ClInclude Include="T3IO.h">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClInclude>
+    <ClInclude Include="T3Graphics.h">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClInclude>
+    <ClInclude Include="T3FileMan.h">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClInclude>
+    <ClInclude Include="T3UpdateLog.h">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXDriver.h">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>TAT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="vector4.h">
+      <Filter>TAT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>TAT\Platform Independence</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex3.h">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>TAT\Low-Level Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
